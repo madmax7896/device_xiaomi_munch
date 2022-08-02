@@ -21,6 +21,10 @@ on boot
     chown system system /proc/tp_gesture
     chmod 0644 /proc/tp_gesture
 
+    # selinux nodes, hide permissive state
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
     # add for power data upload
     chown system system /sys/power/sum_wakeup_time
     chmod 0660 /sys/power/sum_wakeup_time
