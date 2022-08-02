@@ -17,6 +17,10 @@ on init
     chmod 0777 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dynamic_dsi_clock
 
 on boot
+    # DT2W
+    chown system system /proc/tp_gesture
+    chmod 0644 /proc/tp_gesture
+
     # add for power data upload
     chown system system /sys/power/sum_wakeup_time
     chmod 0660 /sys/power/sum_wakeup_time
