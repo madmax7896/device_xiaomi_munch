@@ -852,10 +852,10 @@ vendor/firmware/a650_zap.mdt
 # GPU
 -vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|1ac9feeaddf940a27b5187391c8cb0a6d822d034
 
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
@@ -877,18 +877,17 @@ vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/bin/keymasterd
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/etc/init/keymasterd.rc
-vendor/etc/permissions/android.hardware.hardware_keystore.km41.xml
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
-vendor/lib64/libspcom.so
+# Keymaster - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|7dd0eff233910274f5ab95b3cda67bc063e0fbec
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|d339c17369a16b59093303ca714eab897ffdac60
+vendor/bin/keymasterd|d537cc263dbfcb314fc1f225bddfcba62d3254c7
+vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|001a9c88eabb1296959384f64369f133f88cfc10
+vendor/etc/init/keymasterd.rc|9740a77409a2f2488cf6e663baf372618227732b
+vendor/lib64/libkeymasterdeviceutils.so|7acb90aad982ea2931d1c21a6ae4c4c0121e57ca
+vendor/lib64/libkeymasterprovision.so|ade6f3ffc031ac6ebd16eabad891a63047c3870c
+vendor/lib64/libkeymasterutils.so|572e22dd69debd0f64c5df9f723276f0184e36cc
+vendor/lib64/libqtikeymaster4.so|15083a10f98062f850ed7bb4a1e84004152fee1f
+vendor/lib64/libspcom.so|14f69e1c6ad4a6bbb5ea0b7e38e027ef1e7fc12a
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
