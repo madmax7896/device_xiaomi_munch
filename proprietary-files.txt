@@ -1221,23 +1221,23 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/bin/rmt_storage
 vendor/etc/init/vendor.qti.rmt_storage.rc
 
-# SCVE
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
-vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
-vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
+# SCVE - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
+vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
+vendor/lib/libscveObjectSegmentation.so|b60b43377262ef6cc7882ff5cc49d35e4c516670
+vendor/lib/libscveObjectSegmentation_stub.so|f1a139933c16c2fde367506fe0419c15684a2d3c
+vendor/lib/libscveObjectTracker.so|26318c862d3d56596fe7208ebcc3ae1900f7d55f
+vendor/lib/libscveObjectTracker_stub.so|cafdeed8fa0d51672806038065cf4ce38d442b6b
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|43913523fce72ff8c5fa49f08aef371e8dede3e6
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so|ed52d7ea6a359d9b1b518c94e04414a84ffd3932
+vendor/lib64/libscveCommon.so|237b6432dfb9d7b6ac5d5522591db0972755bb5b
+vendor/lib64/libscveCommon_stub.so|bb5dc4c59d04e35020f4422ae3e19c8cfd0d1537
+vendor/lib64/libscveObjectSegmentation.so|2fea995b4481d61dd1076fd429cef03f726a3f28
+vendor/lib64/libscveObjectSegmentation_stub.so|f30ce4dd4197732dce83e7df6474794abc7b7a26
+vendor/lib64/libscveObjectTracker.so|2c9195e1874ba598135ffec0246648e891fc4e3d
+vendor/lib64/libscveObjectTracker_stub.so|62db08e185e915fe975e5234d1ce1d749e6e9750
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|200237017fdf72f5338ddceeaca5375ba1891058
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|1b0b2665e8ebd65dccb832078fbca81f951e9908
 
 # SMC Invoke
 vendor/lib64/libminkdescriptor.so
