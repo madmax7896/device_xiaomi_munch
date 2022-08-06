@@ -1,18 +1,18 @@
 # Device proprietary files - from munch MIUI V13.0.4.0.SLMMIXM package, unless pinned
 
-# ADSP
-vendor/bin/adsprpcd
-vendor/bin/loadalgo
-vendor/etc/init/vendor.qti.adsprpc-service.rc
-vendor/lib/libadsprpc.so
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libloadalgo_stub.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
+# ADSP - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
+vendor/bin/loadalgo|487e763413fecc0fb1d57f271df03ad5db824a46
+vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
+vendor/lib/libadsprpc.so|85810841e6e334852c14e407822594f34fe3768d
+vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
+vendor/lib/libmdsprpc.so|b1eae12351d0012a2d6a80a9318ef2e917e467b1
+vendor/lib/libsdsprpc.so|f0020a3fdf7c5d7f3399b3160a8b69d24cee1fd5
+vendor/lib64/libadsprpc.so|09dad6cfef636c131fdc15924ac5a85c6960568c
+vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
+vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
+vendor/lib64/libmdsprpc.so|4dfd41ece900c72455e194f961f3c47a4fad7272
+vendor/lib64/libsdsprpc.so|4b3bb474f90b3efddd6ddc88afbefa39ce9d08b1
 
 # ADSP-Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
@@ -209,17 +209,15 @@ vendor/lib64/libbtnv.so|7973f6eeaa23f85709682e6fca66d589f514563d
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|52b83b6f371a49d866276aabc5d6bda4faa400b6
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|8d098cef4c4442f9aa2c64389be5eba32003dcce
 
-# CDSP
-vendor/bin/cdsprpcd
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/lib/libcdsprpc.so
-vendor/lib/libcdsprpc_system.so
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libcdsprpc_system.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libsysmon_cdsp_skel.so
+# CDSP - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/lib/libcdsprpc.so|370826640e2bf060030d7d562c84e9e856491210
+vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
+vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
+vendor/lib64/libcdsprpc.so|4bdd1d7350e83a964e53931287c5ea3f9b3c5099
+vendor/lib64/libcdsp_default_listener.so|23a8dff8e8ab66d23c5de9aa3574dd3c64d113b4
+vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
 
 # CNE - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 -vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b
@@ -623,11 +621,11 @@ vendor/lib64/libcacertclient.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
-# Charger
-vendor/bin/hvdcp_opti
-vendor/bin/init.qti.chg_policy.sh
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
-vendor/etc/charger_fstab.qti
+# Charger - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/bin/hvdcp_opti|d3dae2d3c64df366b82d11deb100af4d8813131f
+vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
+vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
@@ -691,11 +689,11 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
-# DSP
-vendor/bin/dspservice
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+# DSP - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
+vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|e92a9bf499d31770f73cc35e56c6a9d77285ba7c
 
 # Data - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/ATFWD-daemon|94af1767c77ed9835cbb66b0ba729b71e0044e1a
