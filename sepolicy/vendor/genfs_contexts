@@ -1,2 +1,2 @@
 # Touchpanel
-genfscon proc /tp_gesture								u:object_r:proc_touchpanel:s0
+genfscon sysfs /touchpanel                                                                u:object_r:sysfs_touchpanel:s0

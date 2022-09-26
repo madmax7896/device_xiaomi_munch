@@ -18,8 +18,7 @@ on init
 
 on boot
     # DT2W
-    chown system system /proc/tp_gesture
-    chmod 0644 /proc/tp_gesture
+    chown system system /sys/touchpanel/double_tap
 
     # selinux nodes, hide permissive state
     chmod 0640 /sys/fs/selinux/enforce
