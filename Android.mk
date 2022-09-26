@@ -102,10 +102,4 @@ ALL_DEFAULT_INSTALLED_MODULES += \
     $(RFS_MDM_SLPI_SYMLINKS) \
     $(RFS_MDM_TN_SYMLINKS)
 
-# Kernel headers
-$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr: $(wildcard device/xiaomi/munch-kernel/kernel-headers/*)
-	rm -rf $@
-	mkdir -p $@/include
-	cp -a device/xiaomi/munch-kernel/kernel-headers/. $@/include
-
 endif
