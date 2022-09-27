@@ -67,10 +67,10 @@
     <dimen name="status_bar_height">28dp</dimen>
 
     <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">126px</dimen>
+    <dimen name="rounded_corner_radius">52.0px</dimen>
 
     <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">22px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">5px</dimen>
 
     <!-- The default refresh rate for a given device. Change this value to set a higher default
          refresh rate. If the hardware composer on the device supports display modes with a higher
