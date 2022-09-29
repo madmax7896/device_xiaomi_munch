@@ -756,6 +756,7 @@ vendor/lib64/libsdmextension.so|d89a38b3f8ecc283b75621a7702bad8d8417d0f0
 vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
 
 # Display-calibration
+vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_l11r_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
