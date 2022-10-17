@@ -155,6 +155,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.usb.rc \
     $(LOCAL_PATH)/rootdir/etc/init.munch.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.munch.rc \
+    $(LOCAL_PATH)/rootdir/etc/init.munch.perf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.munch.perf.rc \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc \
     $(LOCAL_PATH)/rootdir/etc/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     $(LOCAL_PATH)/rootdir/etc/ueventd.munch.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.rc
