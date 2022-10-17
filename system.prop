@@ -1,6 +1,3 @@
-# Audio
-persist.vendor.audio.ozo.codec.enable=true
-
 # Bluetooth
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 
@@ -14,9 +11,6 @@ ro.charger.enable_suspend=1
 # Fuse passthrough
 persist.sys.fuse.passthrough.enable=true
 
-# Modem dump
-persist.vendor.ssr.enable_ramdumps=1
-
 # Netflix
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
@@ -26,6 +20,3 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # Volume lvls
 ro.config.media_vol_default=10
-
-# USB
-persist.sys.usb.config=none
