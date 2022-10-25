@@ -1021,13 +1021,6 @@ vendor/lib64/unnhal-acc-hvx.so|381286e2bf7e3ff611673962548c78dfd35bc297
 vendor/lib/libopenvx.so|0caa7c42935a77da34dedafa44a5fa400ad7e45c
 vendor/lib64/libopenvx.so|8b4d13c2e83c27887de0aeede294ee380438b314
 
-# Perf
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/thermalboost.conf
-vendor/etc/platform_boost/boost_cap.xml
-vendor/etc/platform_boost/boost_mode.xml
-
 # PD - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/pd-mapper|b286f6d4b0d2b55e06a531c235f0852185875dff
 vendor/lib64/libpdmapper.so|d6058c9ed9f54d7a8066bb1323785f2683e2b517
@@ -1398,6 +1391,7 @@ vendor/bin/mi_thermald
 vendor/bin/thermal-engine
 vendor/etc/init/init.mi_thermald.rc
 vendor/etc/init/init_thermal-engine.rc
+vendor/etc/perf/thermalboost.conf
 vendor/etc/thermal-4k.conf
 vendor/etc/thermal-8k.conf
 vendor/etc/thermal-camera.conf
