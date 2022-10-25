@@ -933,11 +933,11 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 vendor/lib64/liblistensoundmodel2.so
 
-# MDM - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
-vendor/bin/ks|2bcc675556cd146a8a785145f9d2caa1b659b185
-vendor/bin/mdm_helper|aab4a64e1de5ed4e25e0c6ded9d5dc87afcc6aa2
-vendor/bin/mdm_helper_proxy|0f7dd7824c9bcc41de0074d7a27b3de0aa26c2d0
-vendor/lib64/libmdmimgload.so|325a4a412e47c5d088dd8810dc03fc75b24d6ac5
+# MDM
+vendor/bin/ks
+vendor/bin/mdm_helper
+vendor/bin/mdm_helper_proxy
+vendor/lib64/libmdmimgload.so
 
 # MMI - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service|cacf96d37eb787d153ffaa3aa7312524045d8132
