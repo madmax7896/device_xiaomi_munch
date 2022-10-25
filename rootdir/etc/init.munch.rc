@@ -37,6 +37,8 @@ on boot
     #Create persist for camera calibration data
     mkdir /mnt/vendor/persist/camera 0755 system cameraserver
 
+    copy  /vendor/etc/tunings.txt /mnt/vendor/persist/vpp/tunings.txt
+
 on post-fs-data
     mkdir /data/vendor/mac_addr 0770 system wifi
 
