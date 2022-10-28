@@ -94,7 +94,6 @@ vendor/lib/libadm.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib/libbatterylistener.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
@@ -105,13 +104,10 @@ vendor/lib/libcapiv2vop.so
 vendor/lib/libdrc.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libhdmipassthru.so
-vendor/lib/libhfp.so
 vendor/lib/libmulawdec.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libsmwrapper.so
-vendor/lib/libsndmonitor.so
-vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
 vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libsurround_3mic_proc.so
@@ -121,32 +117,10 @@ vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/hw/audio.primary.kona.so
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib64/liba2dpoffload.so
+vendor/lib64/libaachaptics.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libbatterylistener.so
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2svarnn.so
-vendor/lib64/libcapiv2vop.so
-vendor/lib64/libhdmipassthru.so
-vendor/lib64/libhfp.so
-vendor/lib64/libmulawdec.so
-vendor/lib64/libqtigef.so
-vendor/lib64/libresampler.so
-vendor/lib64/libsndmonitor.so
-vendor/lib64/libspkrprot.so
-vendor/lib64/libssrec.so
-vendor/lib64/libstagefright_soft_qtiflacdec.so
-vendor/lib64/libtinycompress.so
-vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Audio FX
 vendor/lib/soundfx/libasphere.so
@@ -155,12 +129,6 @@ vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
 vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libmisoundfx.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/soundfx/libshoebox.so
 
 # Audio firmware
 vendor/firmware/mono.cnt
@@ -182,6 +150,7 @@ vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|a83e30d60645db71d5
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|6a950eaa3066fcba19e1d94a04e5823059a951a8
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|de18f44f36a89f8fb8c8b6f5d2e0bff73acaabea
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|b2d984f5f0ed37f70b63a22d4d351d38b5c5e372
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|e1234c2e98644e2bdf74746704960ea3a2857629
 vendor/lib/btaudio_offload_if.so|a6a47f8397048e0286d6291b1996d6af16cbe241
 vendor/lib/libbluetooth_audio_session_qti.so|0b306bac29ba1beff74c9e84785f0e77efb4402c
 vendor/lib/libbluetooth_audio_session_qti_2_1.so|b894e2e3768c2f3d6a21fae79a92663822e53450
@@ -196,6 +165,7 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|a36dad6cac456b03
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|6afb681f9876d632c1369b11672a46e5d56b28c7
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|473f93f5d500186121d4b844b388a83e1e22297d
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|91fc2e9d2560ff260e83f044d0dd05ab50dfa9ad
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|d117bae0207eb9a7c0aff115593bbbf9461688a7
 vendor/lib64/btaudio_offload_if.so|7c3dfa53e70b7706f1a69e56a9dda109b6ac500c
 vendor/lib64/libbluetooth_audio_session_qti.so|5bd4b55dc98a0e67200ff5e84196667390e1a0e7
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so|1a24b6a9badc091f61389f0a122523eff6eab08e
@@ -665,6 +635,7 @@ vendor/lib64/libminksocket.so|a347a693401d263290eb2706eee82830d3ceb673
 vendor/lib64/libops.so|17439c5decb8e42b0b6a747bf73c263ec0ea4cb1
 vendor/lib64/libpvr.so|66eb207b47f32bb157b296edc2b8ff864c63eb02
 vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/librmp.so|96741cb9f27a80b5cc2535abaa305ac0970584c9
 vendor/lib64/librpmb.so|fd9b71d4be50ee890f9c26cea05fafe90ac5d420
 vendor/lib64/libsi.so|1b58928c6dc314f5e5dc42fd09d1c551c542ee68
 vendor/lib64/libspl.so|e2b3e2dd28b0eee567d72de696cd1e01288ae06f
@@ -693,6 +664,7 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|0be8b21f30c8aba3381bb1e9279ba0ae9b730c60
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|e92a9bf499d31770f73cc35e56c6a9d77285ba7c
 
 # Data - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
@@ -780,9 +752,7 @@ vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
 -vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
 
 # FM
-vendor/lib/ftm_fm_lib.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/ftm_fm_lib.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Fingerprint
@@ -921,17 +891,13 @@ vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib64/hw/sound_trigger.primary.kona.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/liblistensoundmodel2.so
 
 # MDM
 vendor/bin/ks
 vendor/bin/mdm_helper
 vendor/bin/mdm_helper_proxy
 vendor/lib64/libmdmimgload.so
+vendor/lib64/libmodemapi.so
 
 # MMI - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service|cacf96d37eb787d153ffaa3aa7312524045d8132
@@ -961,7 +927,6 @@ vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxWmaDec.so
-vendor/lib/libmm-color-convertor.so
 vendor/lib/libmmosal.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
@@ -979,7 +944,6 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal.so
 
 # NFC
@@ -1260,10 +1224,6 @@ vendor/bin/ssr_setup|b181e27a6b93777430026ad403ca8e9cf811f5c6
 vendor/bin/subsystem_ramdump|804a1b433124d5bd022e762e536b4ae5e6bb0f2b
 vendor/lib/libsubsystem_control.so|8a24d9a5a1c8be316bc277b9944b29af2f91a9ee
 vendor/lib64/libsubsystem_control.so|4f54280aa78b617665d58a78cfbdef41de1b7a07
-
-# Seccam
-vendor/lib/vendor.qti.hardware.seccam@1.0.so
-vendor/lib64/vendor.qti.hardware.seccam@1.0.so
 
 # SecureMSM (SECDISP) - from LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/lib64/libSecureUILib.so|c87439b983b56804530e1e6b4f7e8c312ebdd94c
