@@ -161,6 +161,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true \
     ro.vendor.display.paneltype=2 \
+    ro.vendor.display.sensortype=2 \
     ro.vendor.display.touch.idle.enable=true \
     vendor.display.qdcm.mode_combine=1
 
