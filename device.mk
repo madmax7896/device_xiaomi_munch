@@ -166,6 +166,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.paneltype=2 \
     ro.vendor.display.sensortype=2 \
     ro.vendor.display.touch.idle.enable=true \
+    vendor.display.defer_fps_frame_count=2 \
     vendor.display.qdcm.mode_combine=1
 
 # Doze
