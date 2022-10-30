@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Private Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/xiaomi/munch/sepolicy/private
+
 # QCOM Sepolicy
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/qcom
