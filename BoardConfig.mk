@@ -141,7 +141,7 @@ TARGET_SCREEN_DENSITY := 440
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+-include device/xiaomi/munch/sepolicy/munch-sepolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Verified Boot

@@ -1,2 +1,0 @@
-# Touchpanel
-type sysfs_touchpanel, fs_type, sysfs_type;
