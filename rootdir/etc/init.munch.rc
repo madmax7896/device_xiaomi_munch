@@ -54,10 +54,6 @@ on post-fs-data
     mkdir /data/vendor/thermal/config 0771 root system
 
 on boot
-    # selinux nodes, hide permissive state
-    chmod 0640 /sys/fs/selinux/enforce
-    chmod 0440 /sys/fs/selinux/policy
-
     # DT2W
     chown system system /sys/touchpanel/double_tap
 
