@@ -606,7 +606,7 @@
     <integer name="config_safe_media_volume_index">15</integer>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps">true</bool>
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
     <integer name="config_shutdownBatteryTemperature">600</integer>
@@ -650,10 +650,10 @@
     </array>
 
     <array name="config_sfps_sensor_props_0" translatable="false">
-        <item></item> <!--item>displayId</item-->
+        <item>local:4630946736638489729</item> <!--item>displayId</item-->
         <item>1080</item> <!--item>sensorLocationX</item-->
-        <item>920</item> <!--item>sensorLocationY</item-->
-        <item>200</item> <!--item>sensorRadius</item-->
+        <item>965</item> <!--item>sensorLocationY</item-->
+        <item>115</item> <!--item>sensorRadius</item-->
     </array>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
