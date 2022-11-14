@@ -22,9 +22,6 @@
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">@dimen/physical_power_button_center_screen_location_y</dimen>
 
-    <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
-    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
-
     <!-- Type of a sensor that provides a low-power estimate of the desired display
          brightness, suitable to listen to while the device is asleep (e.g. during
          always-on display) -->
@@ -66,5 +63,12 @@
 
     <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
     <integer name="config_aodMaxRefreshRate">60</integer>
+
+    <!-- The padding on the side of the navigation bar. Must be greater than or equal to
+         navigation_extra_key_width -->
+    <dimen name="navigation_side_padding">80px</dimen>
+
+    <!-- Height of the status bar header bar when on Keyguard -->
+    <dimen name="status_bar_header_height_keyguard">@dimen/navigation_side_padding</dimen>
 
 </resources>
