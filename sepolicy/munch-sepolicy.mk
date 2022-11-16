@@ -17,11 +17,11 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/private
 
 # QCOM Sepolicy
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/qcom
 
 # Xiaomi Sepolicy
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/audio \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/battery \
