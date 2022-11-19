@@ -23,7 +23,6 @@
             <name>IAudioHalExt</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IAudioHalExt/default</fqname>
     </hal>
     <!-- Fingerprint -->
     <hal format="hidl">
@@ -47,7 +46,6 @@
             <name>IXiaomiFingerprint</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IXiaomiFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.xiaomi.hardware.fx.tunnel</name>
@@ -57,7 +55,6 @@
             <name>IMiFxTunnel</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IMiFxTunnel/default</fqname>
     </hal>
     <!-- IR -->
     <hal format="hidl">
@@ -68,7 +65,6 @@
             <name>IConsumerIr</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IConsumerIr/default</fqname>
     </hal>
     <!-- Sensors -->
     <hal format="hidl">
@@ -79,6 +75,5 @@
             <name>ISensors</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::ISensors/default</fqname>
     </hal>
 </compatibility-matrix>
