@@ -63,7 +63,8 @@ void set_ro_build_prop(const string &source, const string &prop,
     property_override(prop_name.c_str(), value.c_str());
 }
 
-void set_device_props(const string brand, const string model, const string name, const string marketname) {
+void set_device_props(const string brand, const string model, const string name, const string marketname,
+        const string mod_device) {
     // list of partitions to override props
     string source_partitions[] = { "", "bootimage.", "odm.", "product.",
                                    "system.", "system_ext.", "vendor." };
@@ -75,6 +76,7 @@ void set_device_props(const string brand, const string model, const string name,
         set_ro_build_prop(source, "marketname", marketname);
     }
 
+    property_override("ro.product.mod_device", mod_device.c_str());
     property_override("bluetooth.device.default_name", marketname.c_str());
 }
 
@@ -84,11 +86,11 @@ void vendor_load_properties()
     string region = GetProperty("ro.boot.hwc", "");
 
     if (region == "INDIA") { // India
-        set_device_props("POCO", "22021211RI", "munch_in", "POCO F4");
+        set_device_props("POCO", "22021211RI", "munch_in", "POCO F4", "munch_in_global");
     } else if (region == "CN") { // China
-        set_device_props("Redmi", "22021211RC", "munch", "Redmi K40S");
+        set_device_props("Redmi", "22021211RC", "munch", "Redmi K40S", "munch_global");
     } else { // Global
-        set_device_props("POCO", "22021211RG", "munch_global", "POCO F4");
+        set_device_props("POCO", "22021211RG", "munch_global", "POCO F4", "munch_global");
     }
 
     // Set hardware revision
