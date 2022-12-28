@@ -283,6 +283,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAMunchFrameworksOverlay \
+    MunchCarrierConfigOverlay \
     MunchFrameworksOverlay \
     MunchSettingsOverlay \
     MunchSystemUIOverlay \
