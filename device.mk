@@ -149,6 +149,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.sf.color_mode=0 \
     vendor.display.use_smooth_motion=0
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.sf.use_latest_hwc_vsync_period=0
+
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.enable_hwc_vds=1 \
     persist.sys.sf.native_mode=258 \
