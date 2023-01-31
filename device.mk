@@ -147,7 +147,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     vendor.display.use_smooth_motion=0
 
 PRODUCT_VENDOR_PROPERTIES += \
-    debug.sf.disable_backpressure=1 \
     debug.sf.enable_hwc_vds=1 \
     ro.surface_flinger.set_idle_timer_ms=1000 \
     ro.surface_flinger.set_touch_timer_ms=1000 \
