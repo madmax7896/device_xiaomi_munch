@@ -58,9 +58,6 @@ TARGET_NO_RAW10_CUSTOM_FORMAT := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/xiaomi_vendor_framework_compatibility_matrix.xml
 
