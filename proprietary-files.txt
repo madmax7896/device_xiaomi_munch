@@ -1416,9 +1416,6 @@ vendor/lib/libvpphvx.so|353f3d77eb9d55e130b0ebd8a77a1772180666c6
 vendor/lib/libvppimmotion.so|33bd92e52ba4062c68931357fa04aa0734b2a73d
 vendor/lib/libvpplibrary.so|50f6c7c16f7e3cc101202932f571c553a28c6782
 vendor/lib/libvpptestutils.so|9e0a3c0cd5303882a4d3d7e821d7e413e38afcac
-vendor/lib/vendor.qti.hardware.vpp@1.1.so|cd8a417c5df0770a90d77d5a5fb46930ea0e10bd
-vendor/lib/vendor.qti.hardware.vpp@1.2.so|693faf4cc53a007e729b8ec48738940a57a2b240
-vendor/lib/vendor.qti.hardware.vpp@1.3.so|6cd86d67f264e1f96890763ac947f77b755a9514
 vendor/lib64/libOmxVpp.so|692b52d9fb51866c8a6475d475eddb4440b753f1
 vendor/lib64/libvppclient.so|31118af9675c3dbb70fbedee4da92c5fc7579ba1
 vendor/lib64/libvpphcp.so|7fd74603c18b2e703117924e12a8e158aca1fa11
@@ -1426,9 +1423,6 @@ vendor/lib64/libvpphvx.so|04a5377edeac4cc0e0e23ca49d056c99de9744d9
 vendor/lib64/libvppimmotion.so|4655f5884f3ccd47b7db7175221637379d60593e
 vendor/lib64/libvpplibrary.so|ae96dfeded184ba9b95ccda7b211061b96b55824
 vendor/lib64/libvpptestutils.so|80a3d41806855d6ee2c5b670123de7eefd78a0bd
-vendor/lib64/vendor.qti.hardware.vpp@1.1.so|3caf062498db60c9018eaf685cc023e381ffc171
-vendor/lib64/vendor.qti.hardware.vpp@1.2.so|7f4e9e8097cb421bc20881910a77e540d9effd30
-vendor/lib64/vendor.qti.hardware.vpp@1.3.so|f41500bd64308e0df2e0cb2cfc932b69bae2c81c
 
 # WiFi
 vendor/bin/cnss-daemon
