@@ -97,7 +97,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-service
 
 # Camera
-$(call inherit-product-if-exists, device/xiaomi/munch-miuicamera/config.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
