@@ -513,7 +513,6 @@ vendor/etc/camera/model_front.dlc
 vendor/etc/camera/reid_float.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
-vendor/etc/camera/st_license.lic
 vendor/etc/camera/vidhance_calibration
 
 # Camera features
