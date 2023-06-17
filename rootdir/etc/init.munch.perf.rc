@@ -24,6 +24,10 @@ on property:vendor.post_boot.parsed=1
     write /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_freq "0:1804800 1:0 2:0 3:0 4:2419200 5:0 6:0 7:3187200"
     write /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_ms 400
 
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
     setprop dalvik.vm.dex2oat-threads 6
