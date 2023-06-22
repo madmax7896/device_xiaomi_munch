@@ -1,4 +1,4 @@
-# Device proprietary files - from munch MIUI V14.0.2.0.TLMMIXM package, unless pinned
+# Device proprietary files - from munch MIUI V14.0.3.0.TLMMIXM package, unless pinned
 
 # ADSP - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
