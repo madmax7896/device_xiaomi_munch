@@ -35,5 +35,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/thermald \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/touch \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/usb \
+    device/xiaomi/munch/sepolicy/vendor/xiaomi/vibrator \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/wireless \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/wlan
