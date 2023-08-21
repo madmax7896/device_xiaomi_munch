@@ -22,6 +22,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 
 import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.settings.dolby.DolbyUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
 
@@ -34,7 +35,10 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         }
 
         // Dirac
-        DiracUtils.onBootCompleted(context);
+        // DiracUtils.onBootCompleted(context);
+
+        // Dolby Atmos
+        DolbyUtils.getInstance(context).onBootCompleted();
 
         // Thermal Profiles
         ThermalUtils.startService(context);
