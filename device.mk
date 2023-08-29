@@ -278,6 +278,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# NFC
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.boot.hardware.sku=munch
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAMunchFrameworksOverlay \
@@ -289,6 +293,7 @@ PRODUCT_PACKAGES += \
     MunchGLOBALWifiOverlay \
     MunchINDIASettingsProviderOverlay \
     MunchINDIAWifiOverlay \
+    MunchNfcOverlay \
     MunchSettingsOverlay \
     MunchSystemUIOverlay \
     MunchWifiOverlay \
