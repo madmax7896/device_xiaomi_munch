@@ -171,27 +171,31 @@
         <item>267</item> <!-- srgb -->
     </integer-array>
 
-    <!-- Minimum screen brightness setting allowed by the power manager.
-         The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">2</integer>
+    <!-- Minimum screen brightness setting allowed by power manager.
+         The user is forbidden from setting the brightness below this level.
+         Equivalent to 10/4095. -->
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.00244200244</item>
 
-    <!-- Maximum screen brightness setting allowed by the power manager.
-         The user is forbidden from setting the brightness above this level. -->
-    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <!-- Maximum screen brightness allowed by the power manager.
+         The user is forbidden from setting the brightness above this level.  -->
+    <item name="config_screenBrightnessSettingMaximumFloat" format="float" type="dimen">1.0</item>
 
-    <!-- Default screen brightness setting.
-         Must be in the range specified by minimum and maximum. -->
-    <integer name="config_screenBrightnessSettingDefault">67</integer>
+    <!-- Default screen brightness setting
+         Must be in the range specified by minimum and maximum.
+         Equivalent to 307/4095 (default for this device)    -->
+    <item name="config_screenBrightnessSettingDefaultFloat" format="float" type="dimen">0.07496947496</item>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">17</integer>
+    <integer name="config_screenBrightnessDoze">15</integer>
+    <item name="config_screenBrightnessDozeFloat" format="float" type="dimen">0.00366300366</item>
 
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">5</integer>
+    <integer name="config_screenBrightnessDim">10</integer>
+    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.00244200244</item>
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
@@ -460,8 +464,8 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>4.5</item>
-        <item>1000.0</item>
+        <item>3.0</item>
+        <item>900.0</item>
     </array>
 
     <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
@@ -538,11 +542,19 @@
         <item>0</item>
     </integer-array>
 
+    <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
+         for debouncing the light sensor.  Different constants are used to debounce the light sensor
+         when adapting to brighter or darker environments.  This parameter controls how quickly
+         brightness changes occur in response to an observed change in light level that exceeds the
+         hysteresis threshold. -->
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">2000</integer>
+
     <!-- Fast brightness animation ramp rate in brightness units per second-->
-    <integer name="config_brightness_ramp_rate_fast">154</integer>
+    <integer name="config_brightness_ramp_rate_fast">307</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
-    <integer name="config_brightness_ramp_rate_slow">123</integer>
+    <integer name="config_brightness_ramp_rate_slow">246</integer>
 
     <!-- Default screen brightness for VR setting. Target default value: 0x0BB for EVT1.1. -->
     <integer name="config_screenBrightnessForVrSettingDefault">86</integer>
